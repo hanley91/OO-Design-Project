@@ -1,0 +1,15 @@
+  .oooooo.   ooo        ooooo oooooooooo.  ooooo      oooooo     oooo  o8o                             
+ d8P'  `Y8b  `88.       .888' `888'   `Y8b `888'       `888.     .8'   `"'                             
+888      888  888b     d'888   888     888  888         `888.   .8'   oooo   .ooooo.  oooo oooo    ooo 
+888      888  8 Y88. .P  888   888oooo888'  888          `888. .8'    `888  d88' `88b  `88. `88.  .8'  
+888      888  8  `888'   888   888    `88b  888           `888.8'      888  888ooo888   `88..]88..8'   
+`88b    d88'  8    Y     888   888    .88P  888            `888'       888  888    .o    `888'`888'    
+ `Y8bood8P'  o8o        o888o o888bood8P'  o888o            `8'       o888o `Y8bod8P'     `8'  `8'     
+Ontario's   Municipal   Benchmarking   Initiative                                                                                                       
+                                                                                                       
+Current Status:                                                                                                        
+Application compiled and run on MC10 virtual machine
+
+SQLite database directory location in the OMBIDatabase.cpp constructor may need to be changed to enable access to the OMBI.db file.
+
+

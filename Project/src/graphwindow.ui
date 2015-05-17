@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GraphWindow</class>
+ <widget class="QDialog" name="GraphWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1276</width>
+    <height>707</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(255, 202, 79)</string>
+  </property>
+  <widget class="QCustomPlot" name="graphView" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1261</width>
+     <height>651</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lineGraph">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>670</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(0, 0, 129);
+color:rgb(255, 202, 79)</string>
+   </property>
+   <property name="text">
+    <string>Line Graph</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="barGraph">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>670</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(0, 0, 129);
+color:rgb(255, 202, 79)</string>
+   </property>
+   <property name="text">
+    <string>Bar Graph</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="visible">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>670</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(0, 0, 129);
+color:rgb(255, 202, 79)</string>
+   </property>
+   <property name="text">
+    <string>Visible Mean</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exporter">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>670</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(0, 0, 129);
+color:rgb(255, 202, 79)</string>
+   </property>
+   <property name="text">
+    <string>Export...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="complete">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>670</y>
+     <width>111</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(0, 0, 129);
+color:rgb(255, 202, 79)</string>
+   </property>
+   <property name="text">
+    <string>Complete Mean</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
